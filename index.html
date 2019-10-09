@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GreenSea</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <h1 class="nav-logo">
+            <svg class="nav-logo__inner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.925 71.616">
+                <g id="Logo" transform="translate(0 0)">
+                  <text id="GreenSea" transform="translate(0 19.159)" fill="#2f3542" font-size="25" font-family="Tahoma-Bold, Tahoma" font-weight="700"><tspan x="0" y="25">GreenSea</tspan></text>
+                  <path id="Path_1" data-name="Path 1" d="M5.143.01a6.3,6.3,0,0,1,5.776,5.776l1.93,32.727a4.739,4.739,0,0,1-5.133,5.133A6.3,6.3,0,0,1,1.94,37.87L.01,5.143A4.739,4.739,0,0,1,5.143.01Z" transform="translate(174.389 31.654) rotate(45)" fill="#5352ed"/>
+                  <path id="Path_2" data-name="Path 2" d="M5.143.01a6.3,6.3,0,0,1,5.776,5.776l1.93,32.727a4.739,4.739,0,0,1-5.133,5.133A6.3,6.3,0,0,1,1.94,37.87L.01,5.143A4.739,4.739,0,0,1,5.143.01Z" transform="translate(179.833 5.106) rotate(45)" fill="#7bed9f"/>
+                  <path id="Path_3" data-name="Path 3" d="M5.143.01a6.3,6.3,0,0,1,5.776,5.776l1.93,32.727a4.739,4.739,0,0,1-5.133,5.133A6.3,6.3,0,0,1,1.94,37.87L.01,5.143A4.739,4.739,0,0,1,5.143.01Z" transform="translate(166.222 0) rotate(45)" fill="#7bed9f"/>
+                </g>
+              </svg>
+              
+        </h1>
+        <ul class="menu">
+            <li class="menu__item" data-link="home">Home</li>
+            <li class="menu__item" data-link="services">Services</li>
+            <li class="menu__item" data-link="contact">Contact</li>
+        </ul>
+        <button class="nav-btn">
+            <div class="nav-btn__bar"></div>
+        </button>
+    </nav>
+    <header class="header" data-location="home">
+        <svg xmlns="http://www.w3.org/2000/svg" class="header__img" viewBox="0 0 611.178 512.385">
+            <g id="Tree" transform="translate(0)">
+              <path id="Rectangle_1" data-name="Rectangle 1" d="M24.5,0h0A24.5,24.5,0,0,1,49,24.5V341a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V24.5A24.5,24.5,0,0,1,24.5,0Z" transform="translate(464.179 171)" fill="#2f3542"/>
+              <circle id="Ellipse_1" data-name="Ellipse 1" cx="122.5" cy="122.5" r="122.5" transform="translate(366.179)" fill="#7bed9f"/>
+              <path id="Union_1" data-name="Union 1" d="M159.772,86.743a20.29,20.29,0,0,1-3.194-2.363c-8.853.634-18.038.968-27.465.968C57.805,85.347,0,66.242,0,42.674S57.805,0,129.112,0,258.224,19.105,258.224,42.674c0,12.37-15.923,23.51-41.364,31.3l267.4,160.071-20.8,34.488Z" transform="translate(0 243.849)" fill="rgba(47,53,66,0.15)"/>
+            </g>
+        </svg>
+        <h1 class="banner">
+            <span class="banner__title">Hope for a better tomorrow</span>
+            <span class="banner__line">Cleaning and preventing mess on the Earth</span>
+        </h1>
+        <button class="header-btn" data-link="services">
+            <span class="header-btn__inner"></span>
+        </button>
+    </header>
+    <main class="content">
+        <section class="section section--service" data-location="services">
+            <h1 class="section__header">Our Services</h1>
+           <div class="services"></div>
+        </section>
+        <section class="section section--contact" data-location="contact">
+            <h1 class="section__header">Contact</h1>
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" name="name" class="contact-form__input">
+              <input type="email" placeholder="Your Email" name="email" class="contact-form__input contact-form__input--email">
+              <textarea name="message" placeholder="Your Message" class="contact-form__text"></textarea>
+              
+            </form>
+            <button type="submit" class="contact-form__btn">Contact Us Now!</button>
+        </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer-menu">
+        <li class="footer-menu__item" data-link="home">Home</li>
+        <li class="footer-menu__item" data-link="services">Services</li>
+        <li class="footer-menu__item" data-link="contact">Contact</li>
+      </ul>
+      <div class="footer-logo" data-link="home">
+        <img src="./assets/svg/logo.svg" alt="logo" data-link="home" class="footer-logo__img">
+      </div>
+      <div class="footer-text">
+        <p class="footer-text__line">2019 &copy; All rights reserved.</p>
+      </div>
+    </footer>
+
+
+    <script src="./assets/src/index.js"></script>
+</body>
+</html>

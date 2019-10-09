@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="188.925" height="71.616" viewBox="0 0 188.925 71.616">
+  <g id="Logo" transform="translate(0 0)">
+    <text id="GreenSea" transform="translate(0 19.159)" fill="#2f3542" font-size="25" font-family="Tahoma-Bold, Tahoma" font-weight="700"><tspan x="0" y="25">GreenSea</tspan></text>
+    <path id="Path_1" data-name="Path 1" d="M5.143.01a6.3,6.3,0,0,1,5.776,5.776l1.93,32.727a4.739,4.739,0,0,1-5.133,5.133A6.3,6.3,0,0,1,1.94,37.87L.01,5.143A4.739,4.739,0,0,1,5.143.01Z" transform="translate(174.389 31.654) rotate(45)" fill="#5352ed"/>
+    <path id="Path_2" data-name="Path 2" d="M5.143.01a6.3,6.3,0,0,1,5.776,5.776l1.93,32.727a4.739,4.739,0,0,1-5.133,5.133A6.3,6.3,0,0,1,1.94,37.87L.01,5.143A4.739,4.739,0,0,1,5.143.01Z" transform="translate(179.833 5.106) rotate(45)" fill="#7bed9f"/>
+    <path id="Path_3" data-name="Path 3" d="M5.143.01a6.3,6.3,0,0,1,5.776,5.776l1.93,32.727a4.739,4.739,0,0,1-5.133,5.133A6.3,6.3,0,0,1,1.94,37.87L.01,5.143A4.739,4.739,0,0,1,5.143.01Z" transform="translate(166.222 0) rotate(45)" fill="#7bed9f"/>
+  </g>
+</svg>
