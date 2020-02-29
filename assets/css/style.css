@@ -451,11 +451,11 @@ body.overflow--hidden {
 }
 
 .content .services .service__img {
-  width: 40%;
+  width: 25%;
 }
 
 .content .services .service__title {
-  font-size: .8em;
+  font-size: .6em;
   text-align: center;
 }
 
